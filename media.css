@@ -31,6 +31,20 @@
         text-align: center !important;
     }
     .primary-button{
-        width: 100%;
+        width: 100% !important;
+    }
+    .features-box{
+        max-width: calc(50% - 20px)!important;
+    }
+    .big-feature-container{
+         flex-direction: column !important;
+    }
+    .footer-container{
+        flex-direction: column !important;
+        gap:40px !important;
+        align-items: center !important;
+    }
+    .link-company{
+       align-items: stretch;
     }
 }
