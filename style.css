@@ -142,6 +142,7 @@ font-weight: 700;
 .main-nav{
    justify-content: space-between;
    margin-top: 20px;
+   position: relative;
 }
 
 .company-logo img{
@@ -278,6 +279,7 @@ width: 50px;
     flex-direction: column;
     gap: 35px;
     color:aliceblue;
+    text-align: center;
 }
 .cta-section{
     padding: 120px var(--padding-inline-section) ;
